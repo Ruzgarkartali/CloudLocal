@@ -1,8 +1,5 @@
 import socket
 
-from past.builtins import raw_input
-
-
 def Main():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     ip = '127.0.0.1'
